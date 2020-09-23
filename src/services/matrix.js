@@ -18,7 +18,7 @@ const logger = loglevel.getLogger('matrix');
 logger.setLevel('silent');
 
 const MATRIX_CLIENT_START_OPTIONS = {
-  initialSyncLimit: 20,
+  initialSyncLimit: 10,
   request: request,
   lazyLoadMembers: true,
   pendingEventOrdering: 'detached',
